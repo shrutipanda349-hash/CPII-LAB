@@ -8,3 +8,4 @@ gets(input_string);
 printf("%s",input_string);
 return 0;
 }
+
