@@ -12,3 +12,4 @@ printf("%c\n",string[i]);
 }
 
 }
+
