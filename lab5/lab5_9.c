@@ -7,6 +7,7 @@ void main()
 	printf("enter the data:");
 	gets(s1);
 	strlwr(s1);
-	printf("str in uper case:%s",s1);
+	printf("str in lower case:%s",s1);
 	
 }
+
