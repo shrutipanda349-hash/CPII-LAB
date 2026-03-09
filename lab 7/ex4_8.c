@@ -28,6 +28,7 @@ int main()
 
         printf("Enter marks: ");
         scanf("%f", &s[i].marks);
+        fflush(stdin);
     }
 
     
@@ -46,4 +47,5 @@ int main()
     printf("Marks: %.2f\n", s[maxIndex].marks);
 
     return 0;
+
 }
