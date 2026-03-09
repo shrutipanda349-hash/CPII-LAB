@@ -27,6 +27,7 @@ int main()
 
         printf("Enter price: ");
         scanf("%f", &b[i].price);
+        fflush(stdin);
     }
 
     
@@ -40,4 +41,5 @@ int main()
     }
 
     return 0;
+
 }
