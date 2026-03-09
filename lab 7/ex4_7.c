@@ -42,6 +42,7 @@ int main()
 
         printf("Enter department ID: ");
         scanf("%d", &emp[i].dept.dept_id);
+        fflush(stdin);
     }
 
     for(i = 0; i < 9; i++)
@@ -68,4 +69,5 @@ int main()
     }
 
     return 0;
+
 }
