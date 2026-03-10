@@ -4,10 +4,11 @@ array*/
 int main()
 {
 	int a[5]={2,3,4,5,6};
-	int *ip=&a;
+	int *ip=a;
 	int i;
 	
 	for(i=0;i<5;i++)
 	printf("%d\n %u\n ",*(ip+i),(ip+i));
 	return 0;
 }
+
