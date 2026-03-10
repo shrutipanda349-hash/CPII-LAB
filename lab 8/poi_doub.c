@@ -5,7 +5,7 @@ int main()
 {
 	
 	double a[5]={2.343,3.8976,1.4,5,6.9};
-	double *ip=&a;
+	double *ip=a;
 	int i;
 	
 	for(i=0;i<5;i++)
@@ -19,3 +19,4 @@ int main()
 	
 	
 	
+
