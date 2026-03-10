@@ -4,8 +4,9 @@ Create a program to showcase this concept. */
  int main()
 {
 	long int a=543234;
-	 int *ip=&a;
+	long int *ip=&a;
 	printf("%ld %u\n",*ip,ip);
 	printf("%d",sizeof(a));
 	return 0;
 }
+
