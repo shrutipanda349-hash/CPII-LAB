@@ -12,10 +12,11 @@ main()
     }
     for(i=0,j=i+1;i<10,j<10;i++,j++)
     {
-    	if(*(p+j)>*(p+j+1))
-    temp= *(p+j);
-    *(p+j)=*(p+j+1);
-    *(p+j+1)=temp;
+    	if(*(p+i)>*(p+j)){
+    temp= *(p+i);
+    *(p+i)=*(p+j);
+    *(p+j)=temp;
+		}
 }
 printf("after sorting:\n");
 for(i=0;i<10;i++)
