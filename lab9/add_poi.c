@@ -1,5 +1,6 @@
 /*Implement a function to calculate the sum of all elements in an array using 
 pointers*/
+#include<stdio.h>
 int addition(int *);
 main()
 {
