@@ -1,4 +1,4 @@
-/*Create a nested structure to store a student’s details (name, roll number, and
+/*Create a nested structure to store a studentâ€™s details (name, roll number, and
 address where address is another structure).*/
  
 #include<stdio.h>
