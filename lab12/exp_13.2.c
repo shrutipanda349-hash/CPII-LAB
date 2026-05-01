@@ -1,3 +1,5 @@
+//2. Write a program to count the number of lines, words, and characters in a given 
+//text file. 
 #include<stdio.h>
 void main()
 {
